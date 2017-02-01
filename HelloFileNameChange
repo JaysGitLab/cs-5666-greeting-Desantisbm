@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class HelloFileNameChange
+{
+    static Scanner scan = new Scanner(System.in);
+    public static void main(String[]args)
+    {
+        print();
+        changeFilename();
+       
+        
+    
+    }  
+    public static void print(){
+        System.out.println("What is your name?");
+        String name = scan.next();
+        String capName = name.substring(0, 1).toUpperCase() + name.substring(1);
+        System.out.println("Hello, " + capName + "!");
+        System.out.println("Would you like to name the file? (Y/N)");
+    }
+    public static void changeFilename(){
+        String yn = scan.next();
+        yn = yn.toUpperCase();
+        
+        if (yn == "Y" || yn == "YES"){
+            
+        }
+    }
+}
