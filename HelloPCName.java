@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.File;
 
-public class HelloName
+public class HelloPCName
 {
     static Scanner scan = new Scanner(System.in);
 
